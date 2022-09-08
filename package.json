@@ -1,0 +1,28 @@
+{
+  "name": "@kaito_kuroba/axios-demo",
+  "version": "1.0.0",
+  "description": "axios 封装",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bzpen/axios-demo.git"
+  },
+  "keywords": [
+    "axios",
+    "vue"
+  ],
+  "author": "bzpen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bzpen/axios-demo/issues"
+  },
+  "homepage": "https://github.com/bzpen/axios-demo#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.16",
+    "axios": "^0.27.2",
+    "typescript": "^4.8.2"
+  }
+}
