@@ -1,5 +1,5 @@
 {
-  "name": "@kaito_kuroba/axios-demo",
+  "name": "@kaito_kuroba/axios",
   "version": "1.0.0",
   "description": "axios 封装",
   "main": "src/index.ts",
