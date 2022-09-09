@@ -1,3 +1,3 @@
-import request from "./utils/https"
+import init from "./utils/https"
 
-export default request
+export default init
