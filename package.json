@@ -1,6 +1,6 @@
 {
   "name": "@kaito_kuroba/axios",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "axios 封装",
   "main": "src/index.ts",
   "scripts": {
