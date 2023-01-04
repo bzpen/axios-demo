@@ -32,14 +32,7 @@ const init = ( config?: Object| undefined, header?: String | undefined, token?: 
     
     response => {
       const res = response.data
-      if (res.code == 200) {
-        // 成功处理 
-        return res
-      } else {
-        // 后台异常处理
-        // res.message  后台异常报告  后续根据后台返回封装 code 对应报错信息
-        return Promise.reject(new Error( res.message || "请求错误"))
-      }
+      return res
     },
     // 请求返回异常处理
     error => {

@@ -8,7 +8,7 @@ npm install @kaito_kuroba/axios
 
 ## Using Axios
 ```typescript
-import init from "@kaito_kuroba/axios-demo";
+import init from "@kaito_kuroba/axios";
 
 // 初始化
 const server = init()
