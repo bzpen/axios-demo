@@ -9,14 +9,6 @@ const init = ( config?: Object| undefined, header?: String | undefined, token?: 
   // request interceptor
   service.interceptors.request.use(
     config => {
-      // 设置 headers
-      if(header !== undefined && header !== ''){
-        config.headers!["Content-Type"] = HEADERS[header as string]
-      }
-      // 设置token
-      if(token !== undefined && token !== ''){
-        config.headers!.token = token as string
-      }
       return config;
     },
     error => {
